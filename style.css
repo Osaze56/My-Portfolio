@@ -9,14 +9,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* :root {
-    --bg-color: #080808;
-    --second-ng-color: #101010;
-    --text-color: white;
-    --main-color: #ea580c;
-    --second-text-color: pink;
-} */
-
 body {
     background: #0f172a;
     display: flex;
