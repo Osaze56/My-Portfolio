@@ -1,34 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="graphicsDesignPictures.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        .portfolio-work {
+    width: 90%;
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+.section-heading {
+    margin-bottom: 45px;
+}
+
+.section-heading p {
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section-heading h2 {
+    font-size: 42px;
+    margin: 0 0 12px;
+}
+
+.section-heading span {
+    color: #777;
+    font-size: 16px;
+}
+
+.work-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.work-item {
+    overflow: hidden;
+    border-radius: 12px;
+    background: #f5f5f5;
+}
+
+.work-item img {
+    width: 100%;
+    height: 320px;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.work-item:hover img {
+    transform: scale(1.04);
+}
+
+
+.project-video {
+    margin-top: 70px;
+}
+
+.video-heading {
+    margin-bottom: 20px;
+}
+
+.video-heading h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.video-heading p {
+    color: #777;
+}
+
+.project-video video {
+    width: 100%;
+    max-height: 600px;
+    display: block;
+    border-radius: 14px;
+    background: #111;
+}
+
+
+/* phone view */
+@media (max-width: 600px) {
+
+    .portfolio-work {
+        width: 92%;
+        margin: 70px auto;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+
+    .section-heading span {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .work-gallery {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .work-item img {
+        height: auto;
+    }
+
+    .project-video {
+        margin-top: 50px;
+    }
+
+    .video-heading h3 {
+        font-size: 23px;
+    }
+
+    .project-video video {
+        border-radius: 10px;
+    }
+}
+    </style>
 </head>
-<style>
-    *{
-        background: rgb(18, 18, 19);
-    }
-    body{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: sans-serif;
-    }
-    p{
-        color: #d8d7d7;
-        text-align: center;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        font-weight: 600;
-        font-size: 200px;
-    }
-</style>
-
 <body>
-<p>404</p>
+    <section class="portfolio-work" id="work">
+        <a class="btn" href="index.html">
+            <i class="fas fa-arrow-alt-circle-left">Back</i>
+        </a>
+        <div class="section-heading">
+            <p>My portfolio Website</p>
+            <h2>Overview of What I Built</h2>
+            <span>
+                Diffferent image interface and a summary video
+            </span>
+        </div>
+    
+        <div class="work-gallery">
+    
+            <div class="work-item">
+                <img src="screenShots/1.png" alt="Project screenshot 1">
+            </div>
+    
+            <div class="work-item">
+                <img src="screenShots/2.png" alt="Project screenshot 2">
+            </div>
+    
+            <div class="work-item">
+                <img src="screenShots/3.png" alt="Project screenshot 3">
+            </div>
+    
+            <div class="work-item">
+                <img src="screenShots/4.png" alt="Project screenshot 4">
+            </div>
+    
+            <div class="work-item">
+                <img src="screenShots/5.png" alt="Project screenshot 5">
+            </div>
+    
+            <div class="work-item">
+                <img src="screenShots/6.png" alt="Project screenshot 6">
+            </div>
+    
+            <div class="work-item">
+                <img src="screenShots/7.png" alt="Project screenshot 7">
+            </div>
+    
+        </div>
+    
+    
+        <div class="project-video">
+    
+            <div class="video-heading">
+                <h3>Project Preview</h3>
+                <p>Take a quick look at the project in action.</p>
+            </div>
+    
+            <video controls>
+                <source src="screenShots/20260926_114610.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+    
+        </div>
+    
+    </section>
 </body>
-
 </html>
