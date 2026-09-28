@@ -17,7 +17,7 @@ The website showcases my skills, projects, education, achievements, interests an
     -SKills
     -Projects
         +portfolio.html
-        +studentManagementfile.html
+        +login.html
         +graphicsDesignPictures.html
     -Educcation/Experience
     -Contact
