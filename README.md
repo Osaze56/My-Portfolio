@@ -40,4 +40,4 @@ Computer Science
 Bayelsa Medical Univerity
 
 ## Repository
-[...............Github Repository  URL.............]
+https://osaze56.github.io/My-Portfolio/
