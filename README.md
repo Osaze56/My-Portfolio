@@ -32,7 +32,7 @@ The website is designed to work on both desktop and mobile devices.
 the website is hosted using Github pages
 
 Live Website:
-[.............Github Page URL.............]
+https://osaze56.github.io/My-Portfolio/
 
 ## Author
 Ehimen Osaze
@@ -40,4 +40,4 @@ Computer Science
 Bayelsa Medical Univerity
 
 ## Repository
-https://osaze56.github.io/My-Portfolio/
+https://github.com/Osaze56
